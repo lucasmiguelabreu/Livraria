@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    background-color: #ede1c8;
 }
 
 header {
@@ -30,7 +31,7 @@ header {
 }
 
 .image {
-    width: 650px;
+    width: 600px;
     height: 550px;
     margin-left: 350px;
     display: inline-block;
@@ -74,4 +75,13 @@ p {
     font-size: 28px;
     line-height: 34px;
     color: #ffffff;
+}
+
+.image-principal {
+    display: inline-block;
+    margin-left: 200px;
+    border: none;
+    width: 600px;
+    height: 550px;
+    
 }
