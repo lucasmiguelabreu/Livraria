@@ -6,6 +6,10 @@
     background-color: #ede1c8;
 }
 
+@media only screen and (max-width: 768px) {
+    
+}
+
 header {
     margin: 10px 0 90px 50px;
     display: flex;
@@ -31,7 +35,7 @@ header {
 }
 
 .image {
-    width: 600px;
+    width: 500px;
     height: 550px;
     margin-left: 350px;
     display: inline-block;
@@ -41,15 +45,15 @@ header {
 main {
     display: inline-block;
     margin-left: 150px;
-    width: 530px;
+    width: 500px;
     height: 79px;
 }
 
 h1 {
     font-family: 'Righteous', sans-serif;
     font-weight: 900;
-    font-size: 100px;
-    line-height: 122px;
+    font-size: 90px;
+    line-height: 120px;
     color: #464646;
 }
 
@@ -58,9 +62,10 @@ p {
     font-size: 24px;
     line-height: 29px;
     color: #848484;
-    width: 550px;
+    width: 525px;
     margin-top: 32px;
     margin-bottom: 65px;
+    text-align: justify;
 }
 
 .button-main {
